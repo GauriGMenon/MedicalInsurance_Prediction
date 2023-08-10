@@ -3,7 +3,7 @@
 ## Description
 In an era where healthcare costs continue to rise and uncertainty looms over medical expenses, accurate prediction of medical insurance costs has emerged as a crucial aspect of informed financial planning. The project centers around the implementation of regression analysis, a cornerstone of predictive modeling in data science, and various methods to enhance its accuracy.
 
-## Data sources
+## Introduction
 Many factors that affect how much we pay for health insurance are not within your control. Nonetheless, it's good to have an understanding of what they are. Here are some factors that affect how much health insurance premiums cost:
 
 **Age**: age of primary beneficiary
@@ -16,8 +16,9 @@ Many factors that affect how much we pay for health insurance are not within you
     <img src="Pics\Feature_Histogram.png" width="800px"/>
 </p>
 
-## Code structure
+## Data sources
 I have sourced the dataset from Kaggle. Please find more information [here:](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+*Please add your `kaggle.json` to the root directory to access the data*
 
 ## Exploratory Data Analysis
 Post loading the dataset, I conducted basic Exploratory data analysis. I performed **skew transformation** on features, applied **label encoding** on string feature(region) and used StandardScalar to scale the data. I have visualized various patterns in the data: 
