@@ -17,7 +17,7 @@ Many factors that affect how much we pay for health insurance are not within you
 </p>
 
 ## Data sources
-I have sourced the dataset from Kaggle. Please find more information [here:](https://www.kaggle.com/datasets/mirichoi0218/insurance)
+I have sourced the dataset from Kaggle. Please find more information [here:](https://www.kaggle.com/datasets/mirichoi0218/insurance)<br>
 *Please add your `kaggle.json` to the root directory to access the data*
 
 ## Exploratory Data Analysis
