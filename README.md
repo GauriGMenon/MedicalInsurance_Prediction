@@ -22,7 +22,7 @@ I have sourced the dataset from Kaggle. Please find more information [here:](htt
 ## Exploratory Data Analysis
 Post loading the dataset, I conducted basic Exploratory data analysis. I performed **skew transformation** on features, applied **label encoding** on string feature(region) and used StandardScalar to scale the data. I have visualized various patterns in the data: 
 <p align = "center">
-    <img src="Pics\NumericalData_Pairplot.png" height="400px" width= "600px"/> &emsp; <img src="Pics\Feature_BosPlot.png" height="400px"/>
+    <img src="Pics\NumericalData_Pairplot.png" height="400px" width= "400px"/> &emsp; <img src="Pics\Feature_BosPlot.png" height="400px" width= "300px"/>
 </p>
 
 
@@ -30,14 +30,14 @@ As we can see, the highest charges due to smoking are still in the Southeast but
 People in the Southwest generally smoke more than people in the Northeast, but people in the Northeast have higher charges by gender than in the Southwest and Northwest overall. And people with children tend to have higher medical costs overall as well.
 Smoking has the highest impact on medical costs, even though the costs are growing with age, bmi and children.
 <p align = "center">
-    <img src="Pics\sex and charges and region.png" width="500px" height='400PX'> &emsp; &emsp; <img src="Pics\bmi, children, age with smoker regression.png" width="600px" height="400px">
+    <img src="Pics\sex and charges and region.png" width="300px" height='400PX'> &emsp; &emsp; <img src="Pics\bmi, children, age with smoker regression.png" width="400px" height="400px">
     <img src="Pics\region charges children.png">
 </p>
 
 **Linearity Assumption, Homodescedasity and Multicollinearity plots** reveal linear patterns and correlation in the data. The following plots the Normality of the target variable:
 <p align = "center">
-    <img src="Pics\LinearityAssumption_BMI_Age.png" width="500px" height='400PX'> &emsp; &emsp; &emsp; &emsp; <img src="Pics\Homoscedacity(constant_variance)_Age.png" width="500px" height='400PX'>
-    <img src="Pics\Multicollinearity.png" width="600px" height='400PX'> &emsp; &emsp; <img src="Pics\ProbabilityPlot_Charges.png" width="500px" height='400PX'>
+    <img src="Pics\LinearityAssumption_BMI_Age.png" width="300px" height='400PX'> &emsp; &emsp; &emsp; &emsp; <img src="Pics\Homoscedacity(constant_variance)_Age.png" width="300px" height='400PX'>
+    <img src="Pics\Multicollinearity.png" width="300px" height='400PX'> &emsp; &emsp; <img src="Pics\ProbabilityPlot_Charges.png" width="300px" height='400PX'>
 </p>
 
 
