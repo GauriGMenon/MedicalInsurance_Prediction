@@ -31,14 +31,16 @@ As we can see, the highest charges due to smoking are still in the Southeast but
 People in the Southwest generally smoke more than people in the Northeast, but people in the Northeast have higher charges by gender than in the Southwest and Northwest overall. And people with children tend to have higher medical costs overall as well.
 Smoking has the highest impact on medical costs, even though the costs are growing with age, bmi and children.
 <p align = "center">
-    <img src="Pics\sex and charges and region.png" width="300px" height='300PX'> &emsp; &emsp; <img src="Pics\bmi, children, age with smoker regression.png" width="400px" height="300px">
-    <img src="Pics\region charges children.png">
+    <img src="Pics\sex and charges and region.png" width="300px" height='300px'> &emsp; &emsp; <img src="Pics\bmi, children, age with smoker regression.png" width="400px" height="300px">
+    <img src="Pics\region charges children.png" width="745px" height="300px">
 </p>
 
 **Linearity Assumption, Homodescedasity and Multicollinearity plots** reveal linear patterns and correlation in the data. The following plots the Normality of the target variable:
 <p align = "center">
-    <img src="Pics\LinearityAssumption_BMI_Age.png" width="300px" height='300PX'> &emsp; &emsp; &emsp; &emsp; <img src="Pics\Homoscedacity(constant_variance)_Age.png" width="300px" height='300PX'>
-    <img src="Pics\Multicollinearity.png" width="300px" height='300PX'> &emsp; &emsp; <img src="Pics\ProbabilityPlot_Charges.png" width="300px" height='300PX'>
+    <img src="Pics\LinearityAssumption_BMI_Age.png" width="300px" height='300px'> &emsp; &emsp; &emsp; &emsp; <img src="Pics\Homoscedacity(constant_variance)_Age.png" width="300px" height='300px'>
+</p>
+<p align = "center">
+    <img src="Pics\Multicollinearity.png" width="300px" height='300px'> &emsp; &emsp; &emsp; &emsp; <img src="Pics\ProbabilityPlot_Charges.png" width="300px" height='300px'>
 </p>
 
 
